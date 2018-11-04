@@ -24,7 +24,7 @@ public class ArticleServiceImp implements IArticleService {
 	
 	@Override
 	public Article save(Article entity) {
-		return dao.save(entity);
+	  return dao.save(entity);
 	}
 
 	
